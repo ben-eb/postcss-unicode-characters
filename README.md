@@ -1,4 +1,4 @@
-# [postcss][postcss]-unicode-characters [![Build Status](https://travis-ci.org/ben-eb/postcss-unicode-characters.svg?branch=master)][ci] [![Build status](https://ci.appveyor.com/api/projects/status/396xfduj47prxklq?svg=true)](https://ci.appveyor.com/project/ben-eb/postcss-unicode-characters) [![NPM version](https://badge.fury.io/js/postcss-unicode-characters.svg)][npm] [![Dependency Status](https://gemnasium.com/ben-eb/postcss-unicode-characters.svg)][deps]
+# [postcss][postcss]-unicode-characters [![Build Status](https://travis-ci.org/ben-eb/postcss-unicode-characters.svg?branch=master)][ci] [![NPM version](https://badge.fury.io/js/postcss-unicode-characters.svg)][npm] [![Dependency Status](https://gemnasium.com/ben-eb/postcss-unicode-characters.svg)][deps]
 
 > An easier way to write unicode-range descriptors.
 
@@ -15,11 +15,12 @@ npm install postcss-unicode-characters --save
 ## Example
 
 This module provides syntactic sugar for the [`unicode-range`][1] descriptor,
-inspired by @svgeesus' dotCSS talk. It provides three different ways to
+inspired by [@svgeesus][2]' dotCSS talk. It provides three different ways to
 construct a standard [`unicode-range`][1] descriptor by using the non-standard
 `unicode-characters` descriptor.
 
 [1]: https://developer.mozilla.org/en/docs/Web/CSS/@font-face/unicode-range
+[2]: https://github.com/svgeesus
 
 The formal syntax for `unicode-characters` looks like this:
 
